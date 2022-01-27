@@ -1,6 +1,6 @@
 # Subdue - A Compact Subdomain Fuzzing Tool for CTFs
 ------------------------------------------------------------------------
-Subdue is a python3 script which aims to provide a <u>quick and easy-to-use solution for subdomain fuzzing</u>. It was born from a need to simplify and speed up the enumeration of subdomains in a CTF-like context, as well as to provide my own alternative solution to more advanced tools performing general fuzzing operations.
+Subdue is a Python3 script which aims to provide a <u>quick and easy-to-use solution for subdomain fuzzing</u>. It was born from a need to simplify and speed up the enumeration of subdomains in a CTF-like context, as well as to provide my own alternative solution to more advanced tools performing general fuzzing operations.
 
 
 
