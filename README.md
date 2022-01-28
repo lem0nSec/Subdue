@@ -42,7 +42,7 @@ optional arguments:
 
   ----------------------------------------------------------------------------------
   
-  ./subdue.py -i 10.10.10.10 -d test.site -w subdomains_example.txt -t 10
+  ./subdue.py -i 10.10.10.10 -d test.site -w subdomains_example_list.txt -t 10
 ```
 
 
