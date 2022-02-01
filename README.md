@@ -4,14 +4,16 @@ Subdue is a Python3 script which aims to provide a <u>quick and easy-to-use solu
 
 
 
-### How it works
+
+## How it works
 ------------------------------------------------------------------------
 Subdue will fuzz subdomains within a specified domain and using a given wordlist. A positive result is given when the values of 'content bytes' and 'content lines' for a fuzzed potential subdomain diverge from those of a non-existent subdomain obtained using a 15-character random string.
 **Bear in mind that Subdue has been written with CTF-like challenges in mind. For this reason, it may not be a suitable tool for real-world engagements. Use it responsibly!!**
 
 
 
-### Usage:
+
+## Usage:
 ------------------------------------------------------------------------
 ```bash
 ./subdue.py -h
@@ -38,23 +40,21 @@ optional arguments:
   -w W        Wordlist
   -k          SSL option
   -t T        Number of concurrent threads (default 5)
-
-
-  ----------------------------------------------------------------------------------
-  
-  ./subdue.py -i 10.10.10.10 -d test.site -w subdomains_example_list.txt -t 10
 ```
+**Example:** `./subdue.py -i 10.10.10.10 -d test.site -w subdomains_example_list.txt -t 10`
 
 
 
-### Requirements:
+
+## Requirements:
 ------------------------------------------------------------------------
 - Requests: `pip3 install requests`
 - Termcolor: `pip3 install termcolor`
 
 
 
-### Threading support:
+
+## Threading support:
 ------------------------------------------------------------------
 Subdue has recently implemented support for concurrent threads:
 
