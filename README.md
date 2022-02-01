@@ -59,7 +59,7 @@ optional arguments:
 ------------------------------------------------------------------
 Subdue has recently implemented support for concurrent threads:
 
-![Threads_differences1](https://user-images.githubusercontent.com/98479572/151378969-df0a5143-583d-4004-ab70-93b0fd47919f.png)
+![Threads_differences1](https://user-images.githubusercontent.com/98479572/152024171-b15725aa-6b05-4007-b37e-5d267af62345.png)
 
 
 *Enjoy!!*
