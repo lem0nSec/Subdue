@@ -49,12 +49,7 @@ optional arguments:
 
 ### Requirements:
 ------------------------------------------------------------------------
-- Argparse (default in Python3)
-- String (default in Python3)
-- Random (default in Python3)
 - Requests: `pip3 install requests`
-- Concurrent.futures (default in Python3)
-- Warnings (default in Python3)
 - Termcolor: `pip3 install termcolor`
 
 
