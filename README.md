@@ -16,7 +16,7 @@ Subdue will fuzz subdomains within a specified domain and using a given wordlist
 
 ## Usage:
 ------------------------------------------------------------------------
-```bash
+```
 ./subdue.py -h
 
 
