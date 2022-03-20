@@ -1,14 +1,14 @@
 # Subdue - A Compact Subdomain Fuzzing Tool for CTFs
 [![GitHub license](https://img.shields.io/github/license/lem0nSec/Subdue)](https://github.com/lem0nSec/Subdue/blob/main/LICENSE.txt)   ![](https://img.shields.io/badge/python-3.x-yellow)
 ------------------------------------------------------------------------
-Subdue is a Python3 script which aims to provide a <u>quick and easy-to-use solution for subdomain fuzzing</u>. It was born from a need to simplify and speed up the enumeration of subdomains in a CTF-like context, as well as to provide an alternative solution to more advanced tools performing general fuzzing operations.
+Subdue is a Python3 script which aims to provide a <u>quick and easy-to-use solution for subdomain fuzzing</u>. It was born from a need to simplify and speed up the enumeration of virtual hosts in a CTF-like context, as well as to provide an alternative solution to more advanced tools performing general fuzzing operations.
 
 
 
 
 ## How it works
 ------------------------------------------------------------------------
-Subdue will fuzz subdomains within a specified domain and using a given wordlist. A positive result is given when the values of 'content bytes' and 'content lines' for a fuzzed potential subdomain diverge from those of a non-existent subdomain obtained using a 15-character random string.
+Subdue will fuzz subdomains within a specified domain and using a given wordlist. A positive result is given when the values of 'content bytes' and 'content lines' for a potentially valid subdomain diverge from those of an invalid subdomain obtained using a 15-character random string.
 **Bear in mind that Subdue has been written with CTF-like challenges in mind. For this reason, it may not be a suitable tool for real-world engagements. Use it responsibly!!**
 
 
